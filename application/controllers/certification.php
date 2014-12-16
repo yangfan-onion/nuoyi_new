@@ -9,22 +9,39 @@ class Certification extends CI_Controller {
 
     public function check()
     {
+        $type = $this->input->post('type');
         $keyword = $this->input->post('keyword');
         
-        $data = array(
-            'qq.abc' => base_url().'static/certification/default_certification.png',
-            'phone.abc' => base_url().'static/certification/default_certification.png',
-            'wechat.abc' => base_url().'static/certification/default_certification.png',
+        $qq_data = array(
+            'qq.abc' => base_url().'static/certification/default_certification.png'
         );
 
-        if(isset($data[$keyword]))
-        {
-            echo $data[$keyword];
+        $phone_data = array(
+            'phone.abc' => base_url().'static/certification/default_certification.png'
+        );
+
+        $wechat_data = array(
+            'wechat.abc' => base_url().'static/certification/default_certification.png'
+        );
+
+        $image_url = '';
+        
+        switch ($type) {
+            case 'qq':
+                $image_url = isset($qq_data[$keyword]) ? $qq_data[$keyword] : '';
+                break;
+            case 'phone':
+                $image_url = isset($phone_data[$keyword]) ? $phone_data[$keyword] : '';
+                break;
+            case 'wechat':
+                $image_url = isset($wechat_data[$keyword]) ? $wechat_data[$keyword] : '';
+                break;
+            default:
+                $image_url = '';
+                break;
         }
-        else
-        {
-            echo '';
-        }
+
+        echo $image_url;
     }
 }
 

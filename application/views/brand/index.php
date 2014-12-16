@@ -4,7 +4,7 @@
             <div class="span12">
                 <div class="widgetContainer">
                     <div class="headingContainer heading-1 text-left">
-                        <h1>品牌</h1>
+                        <h1>公司品牌</h1>
                     </div>
                 </div>
             </div>

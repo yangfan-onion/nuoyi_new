@@ -18,7 +18,8 @@
                 <div class="widgetContainer">
                     <div class="textContainer">
                         <!-- <h1 class="wysiwyg-text-align-left">正品查询</h1> -->
-                        <p class="wysiwyg-text-align-left">请输入代理商的QQ号，或者手机号，或者微信号，来查询代理商认证，以确保您买到的是正品。</p>
+                        <p class="wysiwyg-text-align-left">
+                        请输入代理商的QQ号，或者手机号，或者微信号查询代理商认证，以确保您买到的是正品。</p>
                     </div>
                 </div>
                 <div class="formContainer">
@@ -30,7 +31,23 @@
                             <div class="control-group required newsletter_subscription_email">
                                 <div class="controls">
                                     <div class="input-append">
-                                        <input class="string email required span7" id="" name="keyword" placeholder="QQ/手机号/微信号" size="50" type="text">
+                                        <!-- <input class="btn btn btn-primary" name="commit" type="button" value="xx"> -->
+                                        <!-- Single button -->
+                                        <div class="btn-group">
+                                            <button type="button"  class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                                                <span id="current_val">QQ号</span> <span class="caret"></span>
+                                            </button>
+                                            <ul class="dropdown-menu" role="menu" id="query_select">
+                                                <li><a href="#" data-binding="qq">QQ号</a></li>
+                                                <li><a href="#" data-binding="phone">手机号</a></li>
+                                                <li><a href="#" data-binding="wechat">微信号</a></li>
+                                                <!--
+                                                    <li class="divider"></li>
+                                                    <li><a href="#">Separated link</a></li>
+                                                -->
+                                            </ul>
+                                        </div>
+                                        <input class="string email required span4" id="" name="keyword" placeholder="QQ/手机号/微信号" size="30" type="text">
                                         <input class="btn btn btn-primary" name="commit" type="button" value="查询">
                                     </div>
                                 </div>
@@ -49,12 +66,14 @@
 </section>
 <script>
     $(function(){
+        var query_type = 'qq';
+
         $('input[name="commit"]').on('click', function(event){
             var keyword = $('input[name="keyword"]').val();
             $.ajax({
                 url: '<?php echo base_url();?>certification/check',
                 type: "POST",
-                data: {keyword: keyword}
+                data: {keyword: keyword, type: query_type}
             }).done(function(data) {
                 if(data != ''){
                     $('#certification').find('img').attr('src', data);
@@ -65,6 +84,11 @@
                     alert('此代理商未经过诺亿授权！')
                 }
             });
+        });
+
+        $('#query_select li a').click(function(){
+            $('#current_val').html($(this).html());
+            query_type = $(this).attr('data-binding');
         });
     });
 </script>

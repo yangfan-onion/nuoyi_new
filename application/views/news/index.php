@@ -4,7 +4,7 @@
             <div class="span12">
                 <div class="widgetContainer">
                     <div class="headingContainer heading-2 text-">
-                        <h2>新闻</h2>
+                        <h2>公司新闻</h2>
                     </div>
                 </div>
             </div>

@@ -6,6 +6,11 @@ class News extends CI_Controller {
     {
         $this->layout->view('news/index');
     }
+
+    public function detail($index = 1)
+    {
+        $this->layout->view("news/detail_$index");
+    }
 }
 
 /* End of file news.php */

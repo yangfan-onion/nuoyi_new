@@ -17,7 +17,7 @@
         <link href="<?php echo base_url();?>static/73f27c41a0b57b96cd8f-8b78f4a1c3cecae8e875354bda80d3db.r27.cf1.rackcdn.com/5416a8664c4aa72381000002/custom_5416a8664c4aa72381000002.css" media="all" rel="stylesheet" type="text/css" />
         <script type="text/javascript">var afterRenderPage = [];</script>
         <script src="<?php echo base_url();?>static/c9905acc1d7b5a526f7c-ece02171884dce8c4b3a1e6d28a03a59.r49.cf1.rackcdn.com/assets/themes/peace/application-882b6f3cf3be2f19247c8c78bbd0946b.js" type="text/javascript"></script>
-        <script src="http://maps.googleapis.com/maps/api/js?sensor=false" type="text/javascript"></script>
+        <!-- <script src="http://maps.googleapis.com/maps/api/js?sensor=false" type="text/javascript"></script> -->
         <script src="<?php echo base_url();?>static/c9905acc1d7b5a526f7c-ece02171884dce8c4b3a1e6d28a03a59.r49.cf1.rackcdn.com/assets/plugins-c1f686a41d5b739b6d8c766b16b29e7f.js" type="text/javascript"></script>
         <meta content="authenticity_token" name="csrf-param" />
         <meta content="PR8XSqPaO1qxYfaDTsUev0l0SZqiKAz6rFjUSb+gvSE=" name="csrf-token" />
@@ -30,7 +30,7 @@
                         <div class="container">
                             <div class="row">
                                 <div class="span2">
-                                    <div class="widgetContainer">
+                                    <div class="widgetContainer pull-left">
                                         <div class="logoContainer text-center"><img src="<?php echo base_url();?>static/c9905acc1d7b5a526f7c-ece02171884dce8c4b3a1e6d28a03a59.r49.cf1.rackcdn.com/assets/themes/peace/size_4_peace_logo.png" title="peace_logo"></div>
                                     </div>
                                 </div>
@@ -44,7 +44,7 @@
                                                         <ul class="nav pull-right">
                                                             <li><a href="<?php echo base_url();?>top" title="首页"><span></span>首页</a></li>
                                                             <li class="dropdown">
-                                                                <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span></span>热卖产品<b class="caret"></b></a>
+                                                                <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color:#828282;"><span></span>热卖产品<b class="caret"></b></a>
                                                                 <ul class="dropdown-menu">
                                                                     <li><a href="<?php echo base_url();?>products/xmn" title="洗面奶"><span></span>洗面奶</a></li>
                                                                     <li><a href="<?php echo base_url();?>products/jhs" title="精华水"><span></span>精华水</a></li>
@@ -84,7 +84,42 @@
                                     </div>
                                     <div class="widgetContainer">
                                         <div class="sharelinkContainer">
-                                            <div class="sharelink text-left"><a href="http://www.facebook.com/" title="Facebook"><span class="apico social apico-facebook"></span></a><a href="http://www.twitter.com/" title="Twitter"><span class="apico social apico-twitter"></span></a><a href="https://plus.google.com/" title="Google"><span class="apico social apico-google-plus"></span></a><a href="http://www.linkedin.com/" title="Linkedin"><span class="apico social apico-linkedin"></span></a></div>
+                                            <div class="sharelink text-left">
+                                                <script type="text/javascript">
+                                                    (function(){
+                                                        var p = {
+                                                            url:location.href,
+                                                            showcount:'0',/*是否显示分享总数,显示：'1'，不显示：'0' */
+                                                            desc:'',/*默认分享理由(可选)*/
+                                                            summary:'',/*分享摘要(可选)*/
+                                                            title:'',/*分享标题(可选)*/
+                                                            site:'',/*分享来源 如：腾讯网(可选)*/
+                                                            pics:'', /*分享图片的路径(可选)*/
+                                                            // middle icon
+                                                            // style:'202',
+                                                            // width:105,
+                                                            // height:31
+                                                            // small icon
+                                                            style:'203',
+                                                            width:22,
+                                                            height:22
+                                                        };
+                                                        var s = [];
+                                                        for(var i in p){
+                                                            s.push(i + '=' + encodeURIComponent(p[i]||''));
+                                                        }
+                                                        document.write(['<a version="1.0" class="qzOpenerDiv" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?',s.join('&'),'" target="_blank">分享</a>'].join(''));
+                                                    })();
+                                                </script>
+                                                <script src="http://qzonestyle.gtimg.cn/qzone/app/qzlike/qzopensl.js#jsdate=20111201" charset="utf-8"></script>
+                                                <!-- share to qzone end -->
+                                                <!-- <a style="float:left; margin-top:-2px;" href="javascript:void(function(){var d=document,e=encodeURIComponent,s1=window.getSelection,s2=d.getSelection,s3=d.selection,s=s1?s1():s2?s2():s3?s3.createRange().text:'',r='http://www.douban.com/recommend/?url='+e(d.location.href)+'&title='+e(d.title)+'&sel='+e(s)+'&v=1',w=450,h=330,x=function(){if(!window.open(r,'douban','toolbar=0,resizable=1,scrollbars=yes,status=1,width='+w+',height='+h+',left='+(screen.width-w)/2+',top='+(screen.height-h)/2))location.href=r+'&r=1'};if(/Firefox/.test(navigator.userAgent)){setTimeout(x,0)}else{x()}})()"><img src="http://img2.douban.com/pics/fw2douban_s.png" alt="推荐到豆瓣" /></a> -->
+                                                <!-- share to douban end -->
+                                                <!-- <a href="http://www.facebook.com/" title="Facebook"><span class="apico social apico-facebook"></span></a>
+                                                <a href="http://www.twitter.com/" title="Twitter"><span class="apico social apico-twitter"></span></a>
+                                                <a href="https://plus.google.com/" title="Google"><span class="apico social apico-google-plus"></span></a>
+                                                <a href="http://www.linkedin.com/" title="Linkedin"><span class="apico social apico-linkedin"></span></a> -->
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -114,7 +149,7 @@
                                     </div>
                                     <div class="widgetContainer">
                                         <div class="gmapContainer">
-                                            <div class="gmapWidget r169ifr4" data-widget="{&quot;linked_article_ids&quot;:[],&quot;html_checksum&quot;:null,&quot;fragment_ids&quot;:[],&quot;permanent&quot;:false,&quot;processable&quot;:false,&quot;name&quot;:null,&quot;bgClass&quot;:null,&quot;style&quot;:null,&quot;label_color&quot;:null,&quot;adress1&quot;:&quot; \u5929\u5e9c\u56db\u8857&quot;,&quot;adress2&quot;:&quot;&quot;,&quot;zipcode&quot;:&quot;75012&quot;,&quot;country&quot;:&quot;\u4e2d\u56fd&quot;,&quot;city&quot;:&quot;\u6210\u90fd\u5e02&quot;,&quot;gmap_style&quot;:&quot;default&quot;,&quot;zoom&quot;:6,&quot;location&quot;:{&quot;lat&quot;:30.542335,&quot;lng&quot;:104.05282799999998},&quot;marker_image&quot;:{&quot;apicoClass&quot;:&quot;pi-markers apico orange-pin&quot;,&quot;url&quot;:&quot;http://c9905acc1d7b5a526f7c-ece02171884dce8c4b3a1e6d28a03a59.r49.cf1.rackcdn.com/assets/icons/pi_icons_markers.png&quot;,&quot;sizeX&quot;:32,&quot;sizeY&quot;:32,&quot;pointX&quot;:0,&quot;pointY&quot;:96},&quot;displayed_format&quot;:&quot;r169ifr4&quot;}" frameborder="0" id="gmap-547f14bb4c4aa7e6fc000053"></div>
+                                            <div class="gmapWidget r169ifr4" id="allmap"></div>
                                         </div>
                                     </div>
                                 </div>
@@ -126,5 +161,14 @@
             </div>
         </div>
         <script src="<?php echo base_url();?>static/c9905acc1d7b5a526f7c-ece02171884dce8c4b3a1e6d28a03a59.r49.cf1.rackcdn.com/assets/widgets_init-b818779fa70a9358e456f8c11ec551ad.js" type="text/javascript"></script>
+        <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=7E30CBBdc2168e82f4edb867e62b2ba7"></script>
+        <script type="text/javascript">
+            // 百度地图API功能
+            var map = new BMap.Map("allmap");    // 创建Map实例
+            map.centerAndZoom(new BMap.Point(116.404, 39.915), 11);  // 初始化地图,设置中心点坐标和地图级别
+            map.addControl(new BMap.MapTypeControl());   //添加地图类型控件
+            map.setCurrentCity("北京");          // 设置地图显示的城市 此项是必须设置的
+            map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
+        </script>
     </body>
 </html>
