@@ -114,7 +114,7 @@
                 <div class="widgetContainer">
                     <div class="linkContainer">
                         <div class="link text-left">
-                            <a class="pull-left" href="javascript:void(0);">&lt;&lt;没有更多了</a>
+                            <a class="pull-left" href="javascript:void(0);">← 没有更多了</a>
                         </div>
                     </div>
                 </div>
@@ -123,7 +123,7 @@
                 <div class="widgetContainer">
                     <div class="linkContainer">
                         <div class="link text-right" >
-                            <a class="pull-right" href="<?php echo base_url();?>news/detail/2" title="后一篇">后一篇&gt;&gt;</a>
+                            <a class="pull-right" href="<?php echo base_url();?>news/detail/2" title="后一篇">后一篇 →</a>
                         </div>
                     </div>
                 </div>

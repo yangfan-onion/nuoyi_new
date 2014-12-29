@@ -114,7 +114,7 @@
                 <div class="widgetContainer">
                     <div class="linkContainer">
                         <div class="link text-left">
-                            <a class="pull-left" href="<?php echo base_url();?>news/detail/1" title="前一篇">&lt;&lt;前一篇</a>
+                            <a class="pull-left" href="<?php echo base_url();?>news/detail/1" title="前一篇">← 前一篇</a>
                         </div>
                     </div>
                 </div>
@@ -123,7 +123,7 @@
                 <div class="widgetContainer">
                     <div class="linkContainer">
                         <div class="link text-right" >
-                            <a class="pull-right" href="<?php echo base_url();?>news/detail/3" title="后一篇">后一篇&gt;&gt;</a>
+                            <a class="pull-right" href="<?php echo base_url();?>news/detail/3" title="后一篇">后一篇 →</a>
                         </div>
                     </div>
                 </div>
