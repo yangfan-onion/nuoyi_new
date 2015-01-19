@@ -21,6 +21,11 @@
         <script src="<?php echo base_url();?>static/c9905acc1d7b5a526f7c-ece02171884dce8c4b3a1e6d28a03a59.r49.cf1.rackcdn.com/assets/plugins-c1f686a41d5b739b6d8c766b16b29e7f.js" type="text/javascript"></script>
         <meta content="authenticity_token" name="csrf-param" />
         <meta content="PR8XSqPaO1qxYfaDTsUev0l0SZqiKAz6rFjUSb+gvSE=" name="csrf-token" />
+        <style>
+            a.link_with_no_color{
+                color: black;
+            }
+        </style>
     </head>
     <body>
         <div class="bodyBackground">
@@ -79,7 +84,7 @@
                                     </div>
                                     <div class="widgetContainer">
                                         <div class="textContainer">
-                                            <p>分享我们的产品到社交网站有机会参与抽奖。我们的成功离不开您的参与</p>
+                                            <p>欢迎您分享我们的产品到社交网站，我们的成功离不开您的参与！</p>
                                         </div>
                                     </div>
                                     <div class="widgetContainer">
@@ -137,7 +142,7 @@
                                     </div>
                                     <div class="widgetContainer">
                                         <div class="linkContainer">
-                                            <div class="link text-left"><a class="   pull-left" href="5/news.html" title="We ♥ XX">We ♥ XX</a></div>
+                                            <div class="link text-left"><a class="   pull-left" href="<?php echo base_url();?>" title="We ♥ XX">We ♥ XX</a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -164,11 +169,23 @@
         <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=7E30CBBdc2168e82f4edb867e62b2ba7"></script>
         <script type="text/javascript">
             // 百度地图API功能
-            var map = new BMap.Map("allmap");    // 创建Map实例
-            map.centerAndZoom(new BMap.Point(116.404, 39.915), 11);  // 初始化地图,设置中心点坐标和地图级别
-            map.addControl(new BMap.MapTypeControl());   //添加地图类型控件
-            map.setCurrentCity("北京");          // 设置地图显示的城市 此项是必须设置的
-            map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
+            // var map = new BMap.Map("allmap");    // 创建Map实例
+            // map.centerAndZoom(new BMap.Point(116.404, 39.915), 11);  // 初始化地图,设置中心点坐标和地图级别
+            // map.addControl(new BMap.MapTypeControl());   //添加地图类型控件
+            // map.setCurrentCity("成都");          // 设置地图显示的城市 此项是必须设置的
+            // map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
+            
+            var map = new BMap.Map("allmap");
+            // 创建地址解析器实例
+            var myGeo = new BMap.Geocoder();
+            // 将地址解析结果显示在地图上,并调整地图视野
+            myGeo.getPoint("成都市高新区蜀都中心", function(point){
+                if (point) {
+                    map.centerAndZoom(point, 14);
+                    map.addOverlay(new BMap.Marker(point));
+                }
+            }, "成都");
+            map.enableScrollWheelZoom(true);
         </script>
     </body>
 </html>
