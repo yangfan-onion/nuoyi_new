@@ -34,7 +34,7 @@
                                         <!-- <input class="btn btn btn-primary" name="commit" type="button" value="xx"> -->
                                         <!-- Single button -->
                                         <div class="btn-group">
-                                            <button type="button"  class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                                            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
                                                 <span id="current_val">QQ号</span> <span class="caret"></span>
                                             </button>
                                             <ul class="dropdown-menu" role="menu" id="query_select">
@@ -47,7 +47,7 @@
                                                 -->
                                             </ul>
                                         </div>
-                                        <input class="string email required span4" id="" name="keyword" placeholder="QQ/手机号/微信号" size="30" type="text">
+                                        <input class="string email required" id="" name="keyword" placeholder="QQ/手机号/微信号" type="text" style="height:27px;">
                                         <input class="btn btn btn-primary" name="commit" type="button" value="查询">
                                     </div>
                                 </div>
