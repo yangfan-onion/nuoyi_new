@@ -24,6 +24,7 @@
         <style>
             a.link_with_no_color{
                 color: black;
+                text-decoration: none;
             }
         </style>
     </head>
@@ -79,52 +80,17 @@
                                 <div class="span4">
                                     <div class="widgetContainer">
                                         <div class="headingContainer heading-4 text-">
-                                            <h4>分享</h4>
+                                            <h4>微信扫一扫</h4>
                                         </div>
                                     </div>
                                     <div class="widgetContainer">
                                         <div class="textContainer">
-                                            <p>欢迎您分享我们的产品到社交网站，我们的成功离不开您的参与！</p>
+                                            <p>关注微信公众号有机会赢取御熙妍面膜</p>
                                         </div>
                                     </div>
                                     <div class="widgetContainer">
-                                        <div class="sharelinkContainer">
-                                            <div class="sharelink text-left">
-                                                <script type="text/javascript">
-                                                    (function(){
-                                                        var p = {
-                                                            url:location.href,
-                                                            showcount:'0',/*是否显示分享总数,显示：'1'，不显示：'0' */
-                                                            desc:'',/*默认分享理由(可选)*/
-                                                            summary:'',/*分享摘要(可选)*/
-                                                            title:'',/*分享标题(可选)*/
-                                                            site:'',/*分享来源 如：腾讯网(可选)*/
-                                                            pics:'', /*分享图片的路径(可选)*/
-                                                            // middle icon
-                                                            // style:'202',
-                                                            // width:105,
-                                                            // height:31
-                                                            // small icon
-                                                            style:'203',
-                                                            width:22,
-                                                            height:22
-                                                        };
-                                                        var s = [];
-                                                        for(var i in p){
-                                                            s.push(i + '=' + encodeURIComponent(p[i]||''));
-                                                        }
-                                                        document.write(['<a version="1.0" class="qzOpenerDiv" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?',s.join('&'),'" target="_blank">分享</a>'].join(''));
-                                                    })();
-                                                </script>
-                                                <script src="http://qzonestyle.gtimg.cn/qzone/app/qzlike/qzopensl.js#jsdate=20111201" charset="utf-8"></script>
-                                                <!-- share to qzone end -->
-                                                <!-- <a style="float:left; margin-top:-2px;" href="javascript:void(function(){var d=document,e=encodeURIComponent,s1=window.getSelection,s2=d.getSelection,s3=d.selection,s=s1?s1():s2?s2():s3?s3.createRange().text:'',r='http://www.douban.com/recommend/?url='+e(d.location.href)+'&title='+e(d.title)+'&sel='+e(s)+'&v=1',w=450,h=330,x=function(){if(!window.open(r,'douban','toolbar=0,resizable=1,scrollbars=yes,status=1,width='+w+',height='+h+',left='+(screen.width-w)/2+',top='+(screen.height-h)/2))location.href=r+'&r=1'};if(/Firefox/.test(navigator.userAgent)){setTimeout(x,0)}else{x()}})()"><img src="http://img2.douban.com/pics/fw2douban_s.png" alt="推荐到豆瓣" /></a> -->
-                                                <!-- share to douban end -->
-                                                <!-- <a href="http://www.facebook.com/" title="Facebook"><span class="apico social apico-facebook"></span></a>
-                                                <a href="http://www.twitter.com/" title="Twitter"><span class="apico social apico-twitter"></span></a>
-                                                <a href="https://plus.google.com/" title="Google"><span class="apico social apico-google-plus"></span></a>
-                                                <a href="http://www.linkedin.com/" title="Linkedin"><span class="apico social apico-linkedin"></span></a> -->
-                                            </div>
+                                        <div class="imageContainer">
+                                            <div class="noLinkImage pull-left"><img alt="微信二维码" src="http://127.0.0.1/static/image/top/qrcode.bmp"></div>
                                         </div>
                                     </div>
                                 </div>

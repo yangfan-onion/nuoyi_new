@@ -46,9 +46,9 @@
                                                     <li><a href="#">Separated link</a></li>
                                                 -->
                                             </ul>
+                                            <input class="string email required" id="" name="keyword" placeholder="QQ/手机号/微信号" type="text" style="height:27px;">
+                                            <input class="btn btn btn-primary" name="commit" type="button" value="查询">
                                         </div>
-                                        <input class="string email required" id="" name="keyword" placeholder="QQ/手机号/微信号" type="text" style="height:27px;">
-                                        <input class="btn btn btn-primary" name="commit" type="button" value="查询">
                                     </div>
                                 </div>
                             </div>
@@ -57,7 +57,7 @@
                 </div>
                 <div class="widgetContainer hide" id="certification">
                     <div class="imageContainer">
-                        <div class="noLinkImage img-polaroid"><img alt="cert_1" src="<?php echo base_url();?>static/certification/default_certification.png"></div>
+                        <div class="noLinkImage img-polaroid"><img alt="认证"></div>
                     </div>
                 </div>
             </div>

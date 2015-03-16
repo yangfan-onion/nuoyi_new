@@ -13,15 +13,15 @@ class Certification extends CI_Controller {
         $keyword = $this->input->post('keyword');
         
         $qq_data = array(
-            'qq.abc' => base_url().'static/certification/default_certification.png'
+            'qq.abc' => base_url().'static/certification/top_certification.jpg'
         );
 
         $phone_data = array(
-            'phone.abc' => base_url().'static/certification/default_certification.png'
+            'phone.abc' => base_url().'static/certification/top_certification.jpg'
         );
 
         $wechat_data = array(
-            'wechat.abc' => base_url().'static/certification/default_certification.png'
+            'chengguang2008' => base_url().'static/certification/top_certification.jpg'
         );
 
         $image_url = '';
