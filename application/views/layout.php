@@ -90,7 +90,7 @@
                                     </div>
                                     <div class="widgetContainer">
                                         <div class="imageContainer">
-                                            <div class="noLinkImage pull-left"><img alt="微信二维码" src="http://127.0.0.1/static/image/top/qrcode.bmp"></div>
+                                            <div class="noLinkImage pull-left"><img alt="微信二维码" src="<?php echo base_url();?>static/image/top/qrcode.bmp"></div>
                                         </div>
                                     </div>
                                 </div>
