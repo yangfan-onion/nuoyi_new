@@ -4,7 +4,7 @@
             <div class="span12">
                 <div class="widgetContainer">
                     <div class="headingContainer heading-2 text-">
-                        <h2>精华水</h2>
+                        <h2>悦活水润男士面膜</h2>
                     </div>
                 </div>
             </div>
