@@ -37,7 +37,10 @@
                             <div class="row">
                                 <div class="span2">
                                     <div class="widgetContainer pull-left">
-                                        <div class="logoContainer text-center"><img src="<?php echo base_url();?>static/c9905acc1d7b5a526f7c-ece02171884dce8c4b3a1e6d28a03a59.r49.cf1.rackcdn.com/assets/themes/peace/size_4_peace_logo.png" title="peace_logo"></div>
+                                        <div class="logoContainer text-center">
+                                            <!-- <img src="<?php echo base_url();?>static/c9905acc1d7b5a526f7c-ece02171884dce8c4b3a1e6d28a03a59.r49.cf1.rackcdn.com/assets/themes/peace/size_4_peace_logo.png" title="peace_logo"> -->
+                                            <img src="<?php echo base_url();?>static/image/top/logo.jpg" title="peace_logo">
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="span10">
@@ -52,9 +55,9 @@
                                                             <li class="dropdown">
                                                                 <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color:#828282;"><span></span>热卖产品<b class="caret"></b></a>
                                                                 <ul class="dropdown-menu">
-                                                                    <li><a href="<?php echo base_url();?>products/xmn" title="洗面奶"><span></span>洗面奶</a></li>
-                                                                    <li><a href="<?php echo base_url();?>products/jhs" title="精华水"><span></span>精华水</a></li>
-                                                                    <li><a href="<?php echo base_url();?>products/ry" title="乳液"><span></span>乳液</a></li>
+                                                                    <li><a href="<?php echo base_url();?>products/xmn" title="悦享青春女士面膜"><span></span>悦享青春女士面膜</a></li>
+                                                                    <li><a href="<?php echo base_url();?>products/jhs" title="悦活水润男士面膜"><span></span>悦活水润男士面膜</a></li>
+                                                                    <li><a href="<?php echo base_url();?>products/ry" title="悦色润养女士面膜"><span></span>悦色润养女士面膜</a></li>
                                                                 </ul>
                                                             </li>
                                                             <li><a href="<?php echo base_url();?>brand" title="品牌"><span></span>品牌</a></li>
@@ -90,7 +93,9 @@
                                     </div>
                                     <div class="widgetContainer">
                                         <div class="imageContainer">
-                                            <div class="noLinkImage pull-left"><img alt="微信二维码" src="<?php echo base_url();?>static/image/top/qrcode.bmp"></div>
+                                            <div class="noLinkImage pull-left">
+                                                <img alt="微信二维码" src="<?php echo base_url();?>static/image/top/yuxiyan_qrcode.bmp">
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -102,13 +107,13 @@
                                     </div>
                                     <div class="widgetContainer">
                                         <div class="textContainer">
-                                            <p>Email: xxxx@qq.com</p>
-                                            <p>联系电话: xxx-xxxx-xxxx</p>
+                                            <p>Email: scnuoyi@sina.com</p>
+                                            <p>联系电话: 4008401112</p>
                                         </div>
                                     </div>
                                     <div class="widgetContainer">
                                         <div class="linkContainer">
-                                            <div class="link text-left"><a class="   pull-left" href="<?php echo base_url();?>" title="We ♥ XX">We ♥ XX</a></div>
+                                            <div class="link text-left"><a class="   pull-left" href="<?php echo base_url();?>" title="我们 ♥ 御熙妍">我们 ♥ 御熙妍</a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -145,7 +150,7 @@
             // 创建地址解析器实例
             var myGeo = new BMap.Geocoder();
             // 将地址解析结果显示在地图上,并调整地图视野
-            myGeo.getPoint("成都市高新区蜀都中心", function(point){
+            myGeo.getPoint("四川省成都市高新区天府四街66号2楼4层3号", function(point){
                 if (point) {
                     map.centerAndZoom(point, 14);
                     map.addOverlay(new BMap.Marker(point));

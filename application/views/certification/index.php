@@ -19,7 +19,7 @@
                     <div class="textContainer">
                         <!-- <h1 class="wysiwyg-text-align-left">正品查询</h1> -->
                         <p class="wysiwyg-text-align-left">
-                        请输入代理商的QQ号，或者手机号，或者微信号查询代理商认证，以确保您买到的是正品。</p>
+                        请输入代理商的微信号查询代理商认证，以确保您买到的是正品。</p>
                     </div>
                 </div>
                 <div class="formContainer">
@@ -34,19 +34,15 @@
                                         <!-- <input class="btn btn btn-primary" name="commit" type="button" value="xx"> -->
                                         <!-- Single button -->
                                         <div class="btn-group">
-                                            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                                            <!-- <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
                                                 <span id="current_val">QQ号</span> <span class="caret"></span>
                                             </button>
                                             <ul class="dropdown-menu" role="menu" id="query_select">
                                                 <li><a href="#" data-binding="qq">QQ号</a></li>
                                                 <li><a href="#" data-binding="phone">手机号</a></li>
                                                 <li><a href="#" data-binding="wechat">微信号</a></li>
-                                                <!--
-                                                    <li class="divider"></li>
-                                                    <li><a href="#">Separated link</a></li>
-                                                -->
-                                            </ul>
-                                            <input class="string email required" id="" name="keyword" placeholder="QQ/手机号/微信号" type="text" style="height:27px;">
+                                            </ul> -->
+                                            <input class="string email required" id="" name="keyword" placeholder="微信号码" type="text" style="height:27px;">
                                             <input class="btn btn btn-primary" name="commit" type="button" value="查询">
                                         </div>
                                     </div>
@@ -66,14 +62,15 @@
 </section>
 <script>
     $(function(){
-        var query_type = 'qq';
+        // var query_type = 'qq';
 
         $('input[name="commit"]').on('click', function(event){
             var keyword = $('input[name="keyword"]').val();
             $.ajax({
                 url: '<?php echo base_url();?>certification/check',
                 type: "POST",
-                data: {keyword: keyword, type: query_type}
+                data: {keyword: keyword}
+                // data: {keyword: keyword, type: query_type}
             }).done(function(data) {
                 if(data != ''){
                     $('#certification').find('img').attr('src', data);
@@ -86,10 +83,10 @@
             });
         });
 
-        $('#query_select li a').click(function(){
-            $('#current_val').html($(this).html());
-            query_type = $(this).attr('data-binding');
-        });
+        // $('#query_select li a').click(function(){
+        //     $('#current_val').html($(this).html());
+        //     query_type = $(this).attr('data-binding');
+        // });
     });
 </script>
                 
