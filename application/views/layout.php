@@ -50,6 +50,9 @@
             .navbar .nav>li>a:focus, .navbar .nav>li>a:hover {
                 color: #28282a;
             }
+            .navbar .nav>li>a {
+                color: #28282a !important;
+            }
             .carouselContainer .carousel-control {            
                 background-color: #78949e; 
                 top: 50%;
