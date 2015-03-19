@@ -13,6 +13,7 @@
         <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style" />
         <meta content="true" name="HandheldFriendly" />
         <meta content="width" name="MobileOptimized" />
+        <link rel="shortcut icon" href="<?php echo base_url();?>static/image/top/bitbug_favicon.ico" type="image/x-icon">
         <link href="<?php echo base_url();?>static/c9905acc1d7b5a526f7c-ece02171884dce8c4b3a1e6d28a03a59.r49.cf1.rackcdn.com/assets/themes/peace/application-5e7d0cef6f6826f67fb21e6f8bc0338b.css" media="all" rel="stylesheet" type="text/css" />
         <link href="<?php echo base_url();?>static/73f27c41a0b57b96cd8f-8b78f4a1c3cecae8e875354bda80d3db.r27.cf1.rackcdn.com/5416a8664c4aa72381000002/custom_5416a8664c4aa72381000002.css" media="all" rel="stylesheet" type="text/css" />
         <script type="text/javascript">var afterRenderPage = [];</script>
@@ -25,6 +26,51 @@
             a.link_with_no_color{
                 color: black;
                 text-decoration: none;
+            }
+            .pi-background-mainColor, .pi-text-light {
+                background-color: #78949e;
+            }
+            .navbar .btn-navbar {
+                background-color: #78949e;
+                background-image: linear-gradient(to bottom, #78949e, #78949e);
+            }
+            .navbar .nav>li>a:hover:before  {
+                border-top-color: #28282a;
+            }
+            .navbar .nav>li>a:focus, .navbar .nav>li>a:hover {
+                border-top: 2px solid #28282a;
+            }
+            .nav-collapse .nav>li>a:hover, .nav-collapse .nav>li>a:focus, .nav-collapse .dropdown-menu a:hover, .nav-collapse .dropdown-menu a:focus {
+                background-color: #78949e;
+            }
+            .navbar .nav li.dropdown>a:hover .caret, .navbar .nav li.dropdown>a:focus .caret {
+                border-top-color: #28282a;
+                border-bottom-color: #28282a;
+            }
+            .navbar .nav>li>a:focus, .navbar .nav>li>a:hover {
+                color: #28282a;
+            }
+            .carouselContainer .carousel-control {            
+                background-color: #78949e; 
+                top: 50%;
+            }
+            .btn-primary {
+                background-color: #ba64a4;
+            }
+            .btn-primary:hover{
+                background-color: #D04EAF;
+            }
+            a {
+                color: #ba64a4;
+            }
+            a:hover {
+                color: #78949e;
+            }
+            .linkImage:before {
+                background-color: #e0ede6;
+            }
+            .linkImage:after {
+                background-color: #78949e;
             }
         </style>
     </head>
@@ -53,7 +99,7 @@
                                                         <ul class="nav pull-right">
                                                             <li><a href="<?php echo base_url();?>top" title="首页"><span></span>首页</a></li>
                                                             <li class="dropdown">
-                                                                <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color:#828282;"><span></span>热卖产品<b class="caret"></b></a>
+                                                                <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span></span>热卖产品<b class="caret"></b></a>
                                                                 <ul class="dropdown-menu">
                                                                     <li><a href="<?php echo base_url();?>products/xmn" title="悦享青春女士面膜"><span></span>悦享青春女士面膜</a></li>
                                                                     <li><a href="<?php echo base_url();?>products/jhs" title="悦活水润男士面膜"><span></span>悦活水润男士面膜</a></li>

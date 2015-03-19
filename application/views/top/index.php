@@ -1,3 +1,8 @@
+<style>
+.my-text-icon {
+    margin-bottom: 10px;
+}
+</style>
 <section class="bgSection">
     <div class="container">
         <div class="row">
@@ -24,7 +29,7 @@
                     </div>
                 </div>
                 <div class="widgetContainer">
-                    <div class="textContainer">
+                    <!-- <div class="textContainer">
                         <p><strong></strong></p>
                         <h3><b>全国总代招募 前8名送iphone6一台 先到先得哦~</b></h3>
                         <p class="wysiwyg-text-align-left">
@@ -32,7 +37,7 @@
                             现在混批拿一箱面膜还【送】价值3840元的30套四件套旅行套盒中样，小伙伴们赶紧囤起来，划算的不能再划算啦<br>
                             <b>～加入御熙妍是你护肤品创业最好选择～</b>
                         </p>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -43,8 +48,28 @@
         <div class="row">
             <div class="span12">
                 <div>
+                    <!-- <div class="row">
+                        <div class="span4">
+                            <div class="widgetContainer">
+                                <img class="my-text-icon" src="<?php echo base_url();?>static/image/top/news.jpg" />
+                            </div>
+                        </div>
+                        <div class="span4">
+                            <div class="widgetContainer">
+                                <img class="my-text-icon" src="<?php echo base_url();?>static/image/top/public.jpg" />
+                            </div>
+                        </div>
+                        <div class="span4">
+                            <div class="widgetContainer">
+                                <img class="my-text-icon" src="<?php echo base_url();?>static/image/top/video.jpg" />
+                            </div>
+                        </div>
+                    </div> -->
                     <div class="row">
                         <div class="span4">
+                            <div class="widgetContainer">
+                                <img class="my-text-icon" src="<?php echo base_url();?>static/image/top/news.jpg" />
+                            </div>
                             <div class="widgetContainer">
                                 <div class="imageContainer">
                                     <a class="linkImage img-squareLinkStyle" href="<?php echo base_url();?>news/detail/1"><img alt="ip66" src="<?php echo base_url();?>static/image/news/1/cover.png"></a>
@@ -61,6 +86,9 @@
                         </div>
                         <div class="span4">
                             <div class="widgetContainer">
+                                <img class="my-text-icon" src="<?php echo base_url();?>static/image/top/public.jpg" />
+                            </div>
+                            <div class="widgetContainer">
                                 <div class="imageContainer">
                                     <a class="linkImage img-squareLinkStyle" href="<?php echo base_url();?>news/detail/2"><img alt="ip66" class="img-square" src="<?php echo base_url();?>static/image/news/2/cover.png"></a>
                                 </div>
@@ -74,6 +102,9 @@
                             </div>
                         </div>
                         <div class="span4">
+                            <div class="widgetContainer">
+                                <img class="my-text-icon" src="<?php echo base_url();?>static/image/top/video.jpg" />
+                            </div>
                             <div class="widgetContainer">
                                 <div class="imageContainer">
                                     <a class="linkImage img-squareLinkStyle" href="#"><img alt="ip66" src="<?php echo base_url();?>static/c9905acc1d7b5a526f7c-ece02171884dce8c4b3a1e6d28a03a59.r49.cf1.rackcdn.com/assets/themes/default/size_5_iphone-wireframe.jpg"></a>
