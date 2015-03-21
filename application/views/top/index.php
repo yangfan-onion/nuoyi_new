@@ -12,7 +12,7 @@
                         <div class="carousel slide" data-type="single" id="carousel-547f24d14c4aa7208200004d">
                             <div class="carousel-inner">
                                 <div class="item active"><img alt="" src="<?php echo base_url();?>static/image/top/gallery/gallery_1.jpg"></div>
-                                <div class="item"><img alt="" src="<?php echo base_url();?>static/image/top/gallery/gallery_2.jpg"></div>
+                                <div class="item"><img alt="" src="<?php echo base_url();?>static/image/top/gallery/gallery_2.png"></div>
                                 <div class="item"><img alt="" src="<?php echo base_url();?>static/image/top/gallery/gallery_3.jpg"></div>
                                 <div class="item"><img alt="" src="<?php echo base_url();?>static/image/top/gallery/gallery_4.jpg"></div>
                             </div>

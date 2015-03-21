@@ -21,12 +21,12 @@ class Certification extends CI_Controller {
         // );
 
         $wechat_data = array(
-            'GIVEUP1527965269' => base_url().'static/certification/level-1_GIVEUP1527965269.jpg',
-            'wlhwai2517' => base_url().'static/certification/level-1_wlhwai2517.jpg',
-            'I Can' => base_url().'static/certification/top_I-Can.jpg',
-            'KFmini' => base_url().'static/certification/top_KFmini.jpg',
-            'chengguang2008' => base_url().'static/certification/top_chengguang2008.jpg',
-            'sunnysunny729' => base_url().'static/certification/top_sunnysunny729.jpg'
+            'GIVEUP1527965269' => base_url().'static/certification/level_1_GIVEUP1527965269.png',
+            'wlhwai2517' => base_url().'static/certification/level_1_wlhwai2517.png',
+            'I Can' => base_url().'static/certification/top_I_Can.png',
+            'KFmini' => base_url().'static/certification/top_KFmini.png',
+            'chengguang2008' => base_url().'static/certification/top_chengguang2008.png',
+            'sunnysunny729' => base_url().'static/certification/top_sunnysunny729.png'
         );
 
         $image_url = isset($wechat_data[$keyword]) ? $wechat_data[$keyword] : '';;
