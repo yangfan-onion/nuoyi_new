@@ -17,7 +17,7 @@
             <div class="span12">
                 <div class="widgetContainer">
                     <div class="headingContainer heading-2 text-">
-                        <h2>Default Title</h2>
+                        <h2>企业概况</h2>
                     </div>
                 </div>
                 <div>
@@ -25,23 +25,15 @@
                         <div class="span6">
                             <div class="widgetContainer">
                                 <div class="textContainer">
-                                    <p>Lorem&nbsp;<b>ipsum dolor sit amet</b>, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&nbsp;</p>
-                                    <blockquote>
-                                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                    </blockquote>
-                                    <ol>
-                                        <li>Ut aliquip ex ea commodo consequat.&nbsp;</li>
-                                        <li>Duis aute irure dolor in reprehenderit&nbsp;</li>
-                                    </ol>
-                                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui<b> officia deserunt mollit </b>anim id est laborum.&nbsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
-                                    <p>Photo credit : 8ware </p>
+                                    <p>诺亿的含义--承诺将自然美带给亿万亚洲女性.</p>
+                                    <p>四川诺亿生物科技有限公司是首家推广绿色护肤全新营销理念的公司。公司集设计，网络运营，产品销售，文化传播为一体，竭力成为最优质的生态护肤品牌供应商 。企业拥有自己的门户网站，具有完善的售后服务机制，努力打造绿色自然护肤品牌。</p>
                                 </div>
                             </div>
                         </div>
                         <div class="span6">
                             <div class="widgetContainer">
                                 <div class="imageContainer">
-                                    <div class="noLinkImage"><img alt="tokyo.jpg" src="<?php echo base_url();?>static/c9905acc1d7b5a526f7c-ece02171884dce8c4b3a1e6d28a03a59.r49.cf1.rackcdn.com/assets/themes/peace/size_4_tokyo.jpg"></div>
+                                    <div class="noLinkImage"><img alt="brand.jpg" src="<?php echo base_url();?>static/image/brand/brand.png"></div>
                                 </div>
                             </div>
                         </div>
@@ -49,100 +41,85 @@
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<section class="bgSection">
-    <div class="container">
         <div class="row">
             <div class="span12">
                 <div class="widgetContainer">
-                    <div class="headingContainer heading-2 text-center">
-                        <h2>Default title</h2>
+                    <div class="headingContainer heading-2 text-">
+                        <h2>企业宗旨</h2>
                     </div>
                 </div>
                 <div>
                     <div class="row">
-                        <div class="span3">
-                            <div class="widgetContainer">
-                                <div class="headingContainer heading-4 text-center">
-                                    <h4>New York</h4>
-                                </div>
-                            </div>
-                            <div class="widgetContainer">
-                                <div class="imageContainer"><a class="linkImage img-squareLinkStyle" href="http://www.pikock.com/" title="us-road.jpg"><img alt="us-road.jpg" class="img-square" src="<?php echo base_url();?>static/c9905acc1d7b5a526f7c-ece02171884dce8c4b3a1e6d28a03a59.r49.cf1.rackcdn.com/assets/themes/peace/size_5_us-road.jpg"></a></div>
-                            </div>
+                        <div class="span12">
                             <div class="widgetContainer">
                                 <div class="textContainer">
-                                    <p class="wysiwyg-text-align-center"><strong></strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
-                                    <p class="wysiwyg-text-align-center">Photo credit :&nbsp;Phillip Capper</p>
-                                </div>
-                            </div>
-                            <div class="widgetContainer">
-                                <div class="sharelinkContainer">
-                                    <div class="sharelink text-center"><a href="https://www.facebook.com/" title="Facebook"><span class="apico social apico-facebook-circle"></span></a><a href="https://twitter.com/" title="Twitter"><span class="apico social apico-twitter-circle"></span></a><a href="https://plus.google.com/" title="Google"><span class="apico social apico-google-plus-circle"></span></a><a href="http://www.linkedin.com/" title="Linkedin"><span class="apico social apico-linkedin-circle"></span></a></div>
+                                    <p>四川诺亿生物科技有限公司坚持以“服务客户，造福社会”作为企业宗旨。</p>
+                                    <p>服务客户：满足客户的服务期望，不断开发和满足客户需求.</p>
+                                    <p>秉承“服务为本.诚信经营”的方针，建立以客户为中心的服务体制，做到先客户之想而想，完善售后服务，以亲和、细致的服务回馈客户，持续提供客户满意的产品与服务，诚信天下，做客户永远的伙伴。</p>
+                                    <p>造福社会:与社会共享企业的发展成果，关爱社会弱势群体，每年固定对社会弱势群体进行资助，推动公司持续健康发展，传播社会正能量，最终打造百年民族品牌。</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="span3">
-                            <div class="widgetContainer">
-                                <div class="headingContainer heading-4 text-center">
-                                    <h4>São Paulo</h4>
-                                </div>
-                            </div>
-                            <div class="widgetContainer">
-                                <div class="imageContainer"><a class="linkImage img-squareLinkStyle" href="http://www.pikock.com/" title="gem.jpg"><img alt="gem.jpg" class="img-square" src="<?php echo base_url();?>static/c9905acc1d7b5a526f7c-ece02171884dce8c4b3a1e6d28a03a59.r49.cf1.rackcdn.com/assets/themes/peace/size_5_gem.jpg"></a></div>
-                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="span12">
+                <div class="widgetContainer">
+                    <div class="headingContainer heading-2 text-">
+                        <h2>企业精神</h2>
+                    </div>
+                </div>
+                <div>
+                    <div class="row">
+                        <div class="span12">
                             <div class="widgetContainer">
                                 <div class="textContainer">
-                                    <p class="wysiwyg-text-align-center"><strong></strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
-                                    <p class="wysiwyg-text-align-center">Photo credit :&nbsp;Nicolas Raymond</p>
-                                </div>
-                            </div>
-                            <div class="widgetContainer">
-                                <div class="sharelinkContainer">
-                                    <div class="sharelink text-center"><a href="https://www.facebook.com/" title="Facebook"><span class="apico social apico-facebook-circle"></span></a><a href="https://twitter.com/" title="Twitter"><span class="apico social apico-twitter-circle"></span></a><a href="https://plus.google.com/" title="Google"><span class="apico social apico-google-plus-circle"></span></a><a href="http://www.linkedin.com/" title="Linkedin"><span class="apico social apico-linkedin-circle"></span></a></div>
+                                    <p>四川诺亿生物科技有限公司以传承和弘扬“爱我中华，振兴中华民族品牌”为企业精神。以“爱我中华”为企业的精神支柱, 通过不断的创造和发展， 全力打造适合亚洲人肤质的护肤品牌，振兴民族品牌。</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="span3">
-                            <div class="widgetContainer">
-                                <div class="headingContainer heading-4 text-center">
-                                    <h4>Corse</h4>
-                                </div>
-                            </div>
-                            <div class="widgetContainer">
-                                <div class="imageContainer"><a class="linkImage img-squareLinkStyle" href="http://www.pikock.com/" title="street.jpg"><img alt="street.jpg" class="img-square" src="<?php echo base_url();?>static/c9905acc1d7b5a526f7c-ece02171884dce8c4b3a1e6d28a03a59.r49.cf1.rackcdn.com/assets/themes/peace/size_5_street.jpg"></a></div>
-                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="span12">
+                <div class="widgetContainer">
+                    <div class="headingContainer heading-2 text-">
+                        <h2>企业发展</h2>
+                    </div>
+                </div>
+                <div>
+                    <div class="row">
+                        <div class="span12">
                             <div class="widgetContainer">
                                 <div class="textContainer">
-                                    <p class="wysiwyg-text-align-center"><strong></strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
-                                    <p class="wysiwyg-text-align-center">Photo credit :&nbsp;8ware</p>
-                                </div>
-                            </div>
-                            <div class="widgetContainer">
-                                <div class="sharelinkContainer">
-                                    <div class="sharelink text-center"><a href="https://www.facebook.com/" title="Facebook"><span class="apico social apico-facebook-circle"></span></a><a href="https://twitter.com/" title="Twitter"><span class="apico social apico-twitter-circle"></span></a><a href="https://plus.google.com/" title="Google"><span class="apico social apico-google-plus-circle"></span></a><a href="http://www.linkedin.com/" title="Linkedin"><span class="apico social apico-linkedin-circle"></span></a></div>
+                                    <p>四川诺亿生物科技有限公司以成为具有竞争力的实力级企业作为企业愿景。通过不懈的努力，让公司的经营能力，创新能力都能大踏步发展，大力增强企业凝聚力，竞争力，逐步成为名牌企业。</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="span3">
-                            <div class="widgetContainer">
-                                <div class="headingContainer heading-4 text-center">
-                                    <h4>Paris 15e</h4>
-                                </div>
-                            </div>
-                            <div class="widgetContainer">
-                                <div class="imageContainer"><a class="linkImage img-squareLinkStyle" href="http://www.pikock.com/" title="blueforest.jpg"><img alt="blueforest.jpg" class="img-square" src="<?php echo base_url();?>static/c9905acc1d7b5a526f7c-ece02171884dce8c4b3a1e6d28a03a59.r49.cf1.rackcdn.com/assets/themes/peace/size_5_blueforest.jpg"></a></div>
-                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="span12">
+                <div class="widgetContainer">
+                    <div class="headingContainer heading-2 text-">
+                        <h2>企业品牌</h2>
+                    </div>
+                </div>
+                <div>
+                    <div class="row">
+                        <div class="span12">
                             <div class="widgetContainer">
                                 <div class="textContainer">
-                                    <p class="wysiwyg-text-align-center"><strong></strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
-                                    <p class="wysiwyg-text-align-center">Photo credit :&nbsp;Nicolas Raymond<br></p>
-                                </div>
-                            </div>
-                            <div class="widgetContainer">
-                                <div class="sharelinkContainer">
-                                    <div class="sharelink text-center"><a href="https://www.facebook.com/" title="Facebook"><span class="apico social apico-facebook-circle"></span></a><a href="https://twitter.com/" title="Twitter"><span class="apico social apico-twitter-circle"></span></a><a href="https://plus.google.com/" title="Google"><span class="apico social apico-google-plus-circle"></span></a><a href="http://www.linkedin.com/" title="Linkedin"><span class="apico social apico-linkedin-circle"></span></a></div>
+                                    <p>御熙妍品牌所属产品均以天然有机植物活性成分为主要原料，将美颜经典与现代生物科技完美融合，最大限度避免化学合成材料的使用，在确保护肤疗效的同时坚守“天然、安全、自然”的护肤理念，承诺将自然美带给亿万亚洲女性。御熙妍将始终坚持“好品质创造好品牌”的发展理念，提升产品的知名度。</p>
+                                　　<div>御熙颜，一个专为自然护肤而生的能量品牌</div>
+                                　　<div>美丽肌肤的秘诀，来自御熙妍。护肤请不要再走弯路。</div>
+                                　　<div>御熙妍让时光微笑的走掉，不留下痕迹。</div>
                                 </div>
                             </div>
                         </div>
