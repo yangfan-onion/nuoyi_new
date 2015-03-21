@@ -75,6 +75,9 @@
             .linkImage:after {
                 background-color: #78949e;
             }
+            .textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus {
+                border-bottom: 2px solid #78949e;
+            }
         </style>
     </head>
     <body>
@@ -109,7 +112,7 @@
                                                                     <li><a href="<?php echo base_url();?>products/ry" title="悦色润养女士面膜"><span></span>悦色润养女士面膜</a></li>
                                                                 </ul>
                                                             </li>
-                                                            <li><a href="<?php echo base_url();?>brand" title="品牌"><span></span>品牌</a></li>
+                                                            <li><a href="<?php echo base_url();?>brand" title="品牌"><span></span>企业介绍</a></li>
                                                             <li><a href="<?php echo base_url();?>certification" title="正品查询"><span></span>正品查询</a></li>
                                                             <li><a href="<?php echo base_url();?>news" title="公司新闻"><span></span>公司新闻</a></li>
                                                             <li><a href="<?php echo base_url();?>contact" title="联系我们"><span></span>联系我们</a></li>
