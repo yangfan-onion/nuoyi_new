@@ -94,7 +94,7 @@
                             <div class="widgetContainer">
                                 <div class="textContainer">
                                     <p><strong></strong></p>
-                                    <h3 class="wysiwyg-text-align-center">视频中心</h3>
+                                    <h3 class="wysiwyg-text-align-center"><a class="link_with_no_color" href="<?php echo base_url();?>news/detail/2">视频中心</a></h3>
                                     <p><span><a class="link_with_no_color" href="#">功能暂未上线，敬请期待！</a></span></p>
                                 </div>
                             </div>
