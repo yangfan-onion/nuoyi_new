@@ -90,6 +90,9 @@
             .textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus {
                 border-bottom: 2px solid #78949e;
             }
+            .font12 {
+                font-size: 12px;
+            }
         </style>
     </head>
     <body>

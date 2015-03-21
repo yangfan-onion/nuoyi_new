@@ -59,8 +59,8 @@
                             <div class="widgetContainer">
                                 <div class="textContainer">
                                     <p><strong></strong></p>
-                                    <h3 class="wysiwyg-text-align-center"><a class="link_with_no_color" href="<?php echo base_url();?>news/detail/1">温暖2015,诺亿相伴</a></h3>
-                                    <p class="wysiwyg-text-align-left"><a class="link_with_no_color" href="<?php echo base_url();?>news/detail/1">新年伊始，四川诺亿携社会爱心人士前往大凉山盐源县金河乡麦地沟村小开展暖冬行助学活动。我们从成都出发经过10多个小时的车程到达了盐源县，中巴车延陡峭的山路小心...</a></p>
+                                    <h4 class="wysiwyg-text-align-center"><a class="link_with_no_color" href="<?php echo base_url();?>news/detail/1">温暖2015,诺亿相伴</a></h4>
+                                    <p class="wysiwyg-text-align-left"><a class="link_with_no_color font12  " href="<?php echo base_url();?>news/detail/1">新年伊始，四川诺亿携社会爱心人士前往大凉山盐源县金河乡麦地沟村小开展暖冬行助学活动。我们从成都出发经过10多个小时的车程到达了盐源县，中巴车延陡峭的山路小心...</a></p>
                                     <div class="wysiwyg-text-align-left"><br></div>
                                 </div>
                             </div>
@@ -77,8 +77,8 @@
                             <div class="widgetContainer">
                                 <div class="textContainer">
                                     <p><strong></strong></p>
-                                    <h3 class="wysiwyg-text-align-center"><a class="link_with_no_color" href="<?php echo base_url();?>news/detail/2">全国总代招募</a></h3>
-                                    <p><span><a class="link_with_no_color" href="<?php echo base_url();?>news/detail/2">【御熙妍—完美护肤在这里】全国总代招募！前8名总代额外赠送iPhone6一部！一级5箱，特约2箱，美丽顾问10盒！现在混批拿一箱面膜还【送】价值3840元的30套四件套旅行套盒中样...</a></span></p>
+                                    <h4 class="wysiwyg-text-align-center"><a class="link_with_no_color" href="<?php echo base_url();?>news/detail/2">全国总代招募</a></h4>
+                                    <p><span><a class="link_with_no_color font12" href="<?php echo base_url();?>news/detail/2">【御熙妍—完美护肤在这里】全国总代招募！前8名总代额外赠送iPhone6一部！一级5箱，特约2箱，美丽顾问10盒！现在混批拿一箱面膜还【送】价值3840元的30套四件套旅行套盒中样...</a></span></p>
                                 </div>
                             </div>
                         </div>
@@ -94,8 +94,8 @@
                             <div class="widgetContainer">
                                 <div class="textContainer">
                                     <p><strong></strong></p>
-                                    <h3 class="wysiwyg-text-align-center"><a class="link_with_no_color" href="<?php echo base_url();?>news/detail/2">视频中心</a></h3>
-                                    <p><span><a class="link_with_no_color" href="#">功能暂未上线，敬请期待！</a></span></p>
+                                    <h4 class="wysiwyg-text-align-center"><a class="link_with_no_color" href="<?php echo base_url();?>news/detail/2">视频中心</a></h4>
+                                    <p style="text-align: center;"><span><a class="link_with_no_color font12" href="#">功能暂未上线，敬请期待！</a></span></p>
                                 </div>
                             </div>
                         </div>
