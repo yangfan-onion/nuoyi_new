@@ -30,7 +30,7 @@
                 color: #868f98;
             }
             a.link_with_no_color{
-                color: black;
+                color: #868f98;
                 text-decoration: none;
             }
             .pi-background-mainColor, .pi-text-light {
