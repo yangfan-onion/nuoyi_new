@@ -36,7 +36,7 @@ class Contact extends CI_Controller {
         $this->email->set_newline('\r\n');
 
         $this->email->from('scnuoyi@163.com', '四川诺亿');
-        $this->email->to('1145475391@qq.com');
+        $this->email->to(' scnuoyi@sina.com');
 
         $this->email->subject($contact['subject']);
         $this->email->message($msg);

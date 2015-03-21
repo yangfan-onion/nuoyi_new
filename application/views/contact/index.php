@@ -48,12 +48,12 @@
             <div class="span6">
                 <div class="widgetContainer">
                     <div class="imageContainer">
-                        <div class="noLinkImage"><img alt="dublinstreet" src="<?php echo base_url();?>static/c9905acc1d7b5a526f7c-ece02171884dce8c4b3a1e6d28a03a59.r49.cf1.rackcdn.com/assets/themes/peace/size_4_dublinstreet.jpg"></div>
+                        <div class="noLinkImage"><img alt="dublinstreet" src="<?php echo base_url();?>static/image/contact/contact_us.png"></div>
                     </div>
                 </div>
                 <div class="widgetContainer">
                     <div class="textContainer">
-                        <p>Photo credit : William Murphy</p>
+                        <p>By 四川诺亿生物</p>
                     </div>
                 </div>
             </div>
