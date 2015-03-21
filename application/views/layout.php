@@ -23,6 +23,12 @@
         <meta content="authenticity_token" name="csrf-param" />
         <meta content="PR8XSqPaO1qxYfaDTsUev0l0SZqiKAz6rFjUSb+gvSE=" name="csrf-token" />
         <style>
+            body {
+                font-family: Arial,"宋体";
+            }
+            p, li, a, div{
+                color: #868f98;
+            }
             a.link_with_no_color{
                 color: black;
                 text-decoration: none;
@@ -58,10 +64,16 @@
                 top: 50%;
             }
             .btn-primary {
-                background-color: #ba64a4;
+                background-color: #78949e;
             }
             .btn-primary:hover{
-                background-color: #D04EAF;
+                background-color: #78A7B8;
+            }
+            .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled] {
+                background-color: #78A7B8;
+            }
+            .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled] {
+                background-color: #78A7B8;
             }
             a {
                 color: #ba64a4;
