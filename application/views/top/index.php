@@ -88,7 +88,7 @@
                             </div>
                             <div class="widgetContainer">
                                 <div class="imageContainer">
-                                    <a class="linkImage img-squareLinkStyle" href="#"><img alt="ip66" src="<?php echo base_url();?>static/c9905acc1d7b5a526f7c-ece02171884dce8c4b3a1e6d28a03a59.r49.cf1.rackcdn.com/assets/themes/default/size_5_iphone-wireframe.jpg"></a>
+                                    <a class="linkImage img-squareLinkStyle" href="#"><img alt="ip66" src="<?php echo base_url();?>static/image/top/video_cover.jpg"></a>
                                 </div>
                             </div>
                             <div class="widgetContainer">
