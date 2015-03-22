@@ -167,7 +167,7 @@
                                     <div class="widgetContainer">
                                         <div class="imageContainer">
                                             <div class="noLinkImage pull-left">
-                                                <img alt="微信二维码" src="<?php echo base_url();?>static/image/top/yuxiyan_qrcode.bmp">
+                                                <img alt="微信二维码" src="<?php echo base_url();?>static/image/top/nuoyi.jpg">
                                             </div>
                                         </div>
                                     </div>
@@ -186,7 +186,7 @@
                                     </div>
                                     <div class="widgetContainer">
                                         <div class="linkContainer">
-                                            <div class="link text-left"><a class="   pull-left" href="<?php echo base_url();?>" title="我们 ♥ 御熙妍">我们 ♥ 御熙妍</a></div>
+                                            <div class="link text-left"><a class="   pull-left" href="http://yuxiyan.com.cn" title="我们 ♥ 御熙妍">我们 ♥ 御熙妍</a></div>
                                         </div>
                                     </div>
                                 </div>

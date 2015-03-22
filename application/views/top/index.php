@@ -113,7 +113,7 @@
             <div class="span12">
                 <div class="widgetContainer">
                     <div class="imageContainer">
-                        <div class="noLinkImage"><img alt="shoes-products" src="<?php echo base_url();?>static/image/top/construct_product.jpg"></div>
+                        <div class="noLinkImage"><img alt="shoes-products" src="<?php echo base_url();?>static/image/top/summary.jpg"></div>
                     </div>
                 </div>
                 <div>
@@ -150,11 +150,11 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="widgetContainer">
+                            <!-- <div class="widgetContainer">
                                 <div class="linkContainer">
                                     <div class="link text-left"><a class="btn btn-primary btn-large  pull-left" href="http://www.pikock.com/" title="产品详情">产品详情</a></div>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
