@@ -15,7 +15,8 @@
                                 <div class="item"><img alt="" src="<?php echo base_url();?>static/image/top/gallery/gallery_2.png"></div>
                                 <div class="item"><img alt="" src="<?php echo base_url();?>static/image/top/gallery/gallery_3.jpg"></div>
                                 <div class="item"><img alt="" src="<?php echo base_url();?>static/image/top/gallery/gallery_4.jpg"></div>
-                                <div class="item active"><img alt="" src="<?php echo base_url();?>static/image/top/gallery/gallery_6.png"></div>
+                                <div class="item"><img alt="" src="<?php echo base_url();?>static/image/top/gallery/gallery_6.png"></div>
+                                <div class="item active"><img alt="" src="<?php echo base_url();?>static/image/top/gallery/gallery_7.jpg"></div>
                             </div>
                             <a class="carousel-control left" data-slide="prev" href="#carousel-547f24d14c4aa7208200004d">‹</a><a class="carousel-control right" data-slide="next" href="#carousel-547f24d14c4aa7208200004d">›</a>
                             <ol class="carousel-indicators">
@@ -53,14 +54,14 @@
                             </div>
                             <div class="widgetContainer">
                                 <div class="imageContainer">
-                                    <a class="linkImage img-squareLinkStyle" href="<?php echo base_url();?>news/detail/2"><img alt="ip66" class="img-square" src="<?php echo base_url();?>static/image/news/2/cover.png"></a>
+                                    <a class="linkImage img-squareLinkStyle" href="<?php echo base_url();?>news/detail/2"><img alt="ip66" class="img-square" src="<?php echo base_url();?>static/image/news/2/cover.jpg"></a>
                                 </div>
                             </div>
                             <div class="widgetContainer">
                                 <div class="textContainer">
                                     <p><strong></strong></p>
-                                    <h4 class="wysiwyg-text-align-center"><a class="link_with_no_color" href="<?php echo base_url();?>news/detail/1">温暖2015,诺亿相伴</a></h4>
-                                    <p class="wysiwyg-text-align-left"><a class="link_with_no_color font12  " href="<?php echo base_url();?>news/detail/1">新年伊始，四川诺亿携社会爱心人士前往大凉山盐源县金河乡麦地沟村小开展暖冬行助学活动。我们从成都出发经过10多个小时的车程到达了盐源县，中巴车延陡峭的山路小心...</a></p>
+                                    <h4 class="wysiwyg-text-align-center"><a class="link_with_no_color" href="<?php echo base_url();?>news/detail/1">媒体报道</a></h4>
+                                    <p class="wysiwyg-text-align-center"><a class="link_with_no_color font12  " href="<?php echo base_url();?>news/detail/1">敬请期待..</a></p>
                                     <div class="wysiwyg-text-align-left"><br></div>
                                 </div>
                             </div>
@@ -71,14 +72,15 @@
                             </div>
                             <div class="widgetContainer">
                                 <div class="imageContainer">
-                                    <a class="linkImage img-squareLinkStyle" href="<?php echo base_url();?>news/detail/1"><img alt="ip66" src="<?php echo base_url();?>static/image/news/1/cover.png"></a>
+                                    <a class="linkImage img-squareLinkStyle" href="<?php echo base_url();?>news/detail/1"><img alt="ip66" src="<?php echo base_url();?>static/image/news/1/cover.jpg"></a>
                                 </div>
                             </div>
                             <div class="widgetContainer">
                                 <div class="textContainer">
                                     <p><strong></strong></p>
-                                    <h4 class="wysiwyg-text-align-center"><a class="link_with_no_color" href="<?php echo base_url();?>news/detail/2">全国总代招募</a></h4>
-                                    <p><span><a class="link_with_no_color font12" href="<?php echo base_url();?>news/detail/2">【御熙妍—完美护肤在这里】全国总代招募！前8名总代额外赠送iPhone6一部！一级5箱，特约2箱，美丽顾问10盒！现在混批拿一箱面膜还【送】价值3840元的30套四件套旅行套盒中样...</a></span></p>
+                                    <h4 class="wysiwyg-text-align-center"><a class="link_with_no_color" href="<?php echo base_url();?>news/detail/1">温暖2015,诺亿相伴</a></h4>
+                                    <p class="wysiwyg-text-align-left"><a class="link_with_no_color font12  " href="<?php echo base_url();?>news/detail/1">新年伊始，四川诺亿携社会爱心人士前往大凉山盐源县金河乡麦地沟村小开展暖冬行助学活动。我们从成都出发经过10多个小时的车程到达了盐源县，中巴车延陡峭的山路小心...</a></p>
+                                    <div class="wysiwyg-text-align-left"><br></div>
                                 </div>
                             </div>
                         </div>
@@ -95,7 +97,7 @@
                                 <div class="textContainer">
                                     <p><strong></strong></p>
                                     <h4 class="wysiwyg-text-align-center"><a class="link_with_no_color" href="<?php echo base_url();?>news/detail/2">视频中心</a></h4>
-                                    <p style="text-align: center;"><span><a class="link_with_no_color font12" href="#">功能暂未上线，敬请期待！</a></span></p>
+                                    <p class="wysiwyg-text-align-center"><span><a class="link_with_no_color font12" href="#">功能暂未上线，敬请期待..</a></span></p>
                                 </div>
                             </div>
                         </div>
