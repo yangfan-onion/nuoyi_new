@@ -38,7 +38,7 @@
             <div class="span8">
                 <div class="widgetContainer">
                     <div class="imageContainer">
-                        <div class="noLinkImage"><img alt="mugs" src="<?php echo base_url();?>static/image/product/yhsr_1.jpg"></div>
+                        <div class="noLinkImage"><img alt="mugs" src="<?php echo base_url();?>static/image/product/product-1.jpg"></div>
                     </div>
                 </div>
             </div>
