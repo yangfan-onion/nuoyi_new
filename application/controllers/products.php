@@ -4,17 +4,20 @@ class Products extends CI_Controller {
 
     public function xmn()
     {
-        $this->layout->view('products/xmn');
+        $data['title'] = '诺亿生物-悦享青春';
+        $this->layout->view('products/xmn', $data);
     }
 
     public function jhs()
     {
-        $this->layout->view('products/jhs');
+        $data['title'] = '诺亿生物-悦活水润';
+        $this->layout->view('products/jhs', $data);
     }
 
     public function ry()
     {
-        $this->layout->view('products/ry');
+        $data['title'] = '诺亿生物-悦色润养';
+        $this->layout->view('products/ry', $data);
     }
 }
 

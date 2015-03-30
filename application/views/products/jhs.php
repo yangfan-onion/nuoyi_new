@@ -19,7 +19,7 @@
                     <div class="textContainer">
                         <p><strong></strong></p>
                         <h2>悦活水润男士面膜</h2>
-                        <h2>¥198 <span class="font10">1盒6片</span></h2>
+                        <h2><span class="red-text">¥198</span> <span class="font10">1盒6片</span></h2>
                         <h4><span class="text-delete">专柜价¥258</span></h4>
                         <p>深层改造干燥，去黄抗氧，减少暗沉，使肌肤清透明亮，维持水润一整天。让疲惫暗淡的肌肤瞬间倍感舒畅，重拾活力光彩，恢复型男本色。</p>
                         <ul>

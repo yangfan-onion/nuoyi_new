@@ -4,7 +4,8 @@ class Certification extends CI_Controller {
 
     public function index()
     {
-        $this->layout->view('certification/index');
+        $data['title'] = '诺亿生物-正品认证';
+        $this->layout->view('certification/index', $data);
     }
 
     public function check()

@@ -4,7 +4,8 @@ class Top extends CI_Controller {
 
     public function index()
     {
-        $this->layout->view('top/index');
+    	$data['title'] = '诺亿生物-首页';
+        $this->layout->view('top/index', $data);
     }
 }
 

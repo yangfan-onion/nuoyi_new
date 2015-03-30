@@ -2,7 +2,7 @@
 <html lang="en">
     <meta http-equiv="content-type" content="text/html;charset=utf-8" />
     <head>
-        <title>首页</title>
+        <title><?php echo $title;?></title>
         <link href="index.html" rel="canonical" />
         <meta content="首页" name="description" />
         <meta content="en" name="language" />
@@ -98,6 +98,9 @@
             }
             .text-delete {
                 text-decoration: line-through;
+            }
+            .red-text {
+                color: red;
             }
         </style>
     </head>

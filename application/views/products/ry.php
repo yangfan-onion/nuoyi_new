@@ -19,7 +19,7 @@
                     <div class="textContainer">
                         <p><strong></strong></p>
                         <h2>悦色润养女士面膜</h2>
-                        <h2>¥198 <span class="font10">1盒6片</span></h2>
+                        <h2><span class="red-text">¥198</span> <span class="font10">1盒6片</span></h2>
                         <h4><span class="text-delete">专柜价¥258</span></h4>
                         <p>蕴含多种珍贵精华及活氧保湿因子，清润滋养、提升紧致、提亮肤色、焕容活力、令肌肤莹润光泽，细嫩柔滑、抵御岁月痕迹，改善肌肤年龄</p>
                         <ul>

@@ -4,12 +4,14 @@ class News extends CI_Controller {
 
     public function index()
     {
-        $this->layout->view('news/index');
+    	$data['title'] = '诺亿生物-新闻列表';
+        $this->layout->view('news/index', $data);
     }
 
     public function detail($index = 1)
     {
-        $this->layout->view("news/detail_$index");
+    	$data['title'] = '诺亿生物-新闻';
+        $this->layout->view("news/detail_$index", $data);
     }
 }
 

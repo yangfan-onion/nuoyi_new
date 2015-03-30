@@ -19,7 +19,7 @@
                     <div class="textContainer">
                         <p><strong></strong></p>
                         <h2>悦享青春女士面膜</h2>
-                        <h2>¥9.9 <span class="font10">1片</span></h2>
+                        <h2><span class="red-text">¥9.9</span> <span class="font10">1片</span></h2>
                         <h4><span class="text-delete">专柜价¥29.8</span></h4>
                         <p>富含多种植物萃取精华，促进养分吸收、营造水润紧实、安抚释压、使肌肤绽放青春光彩，呈现凝润亮泽、弹滑紧致的迷人肌肤，让您悦享青春盛宴。</p>
                         <span>适用肌肤：</span>

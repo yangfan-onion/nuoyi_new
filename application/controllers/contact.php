@@ -4,7 +4,8 @@ class Contact extends CI_Controller {
 
     public function index()
     {
-        $this->layout->view('contact/index');
+        $data['title'] = '诺亿生物-联系我们';
+        $this->layout->view('contact/index', $data);
     }
 
     public function send_email()

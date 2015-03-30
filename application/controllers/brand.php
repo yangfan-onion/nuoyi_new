@@ -4,7 +4,8 @@ class Brand extends CI_Controller {
 
     public function index()
     {
-        $this->layout->view('brand/index');
+    	$data['title'] = '诺亿生物-企业介绍';
+        $this->layout->view('brand/index', $data);
     }
 }
 
