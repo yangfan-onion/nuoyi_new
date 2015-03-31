@@ -115,7 +115,7 @@
                                     <div class="widgetContainer pull-left">
                                         <div class="logoContainer text-center">
                                             <!-- <img src="<?php echo base_url();?>static/c9905acc1d7b5a526f7c-ece02171884dce8c4b3a1e6d28a03a59.r49.cf1.rackcdn.com/assets/themes/peace/size_4_peace_logo.png" title="peace_logo"> -->
-                                            <a href="<?php echo base_url();?>"><img src="<?php echo base_url();?>static/image/top/logo.jpg" title="peace_logo"></a>
+                                            <a href="<?php echo base_url();?>"><img src="<?php echo base_url();?>static/image/top/logo.jpg" title="四川诺亿"></a>
                                         </div>
                                     </div>
                                 </div>
