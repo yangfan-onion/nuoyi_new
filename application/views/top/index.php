@@ -54,7 +54,7 @@
                             </div>
                             <div class="widgetContainer">
                                 <div class="imageContainer">
-                                    <a class="linkImage img-squareLinkStyle" href="＃"><img alt="ip66" class="img-square" src="<?php echo base_url();?>static/image/news/2/cover.jpg"></a>
+                                    <a class="linkImage img-squareLinkStyle" href="#"><img alt="ip66" class="img-square" src="<?php echo base_url();?>static/image/news/2/cover.jpg"></a>
                                 </div>
                             </div>
                             <div class="widgetContainer">
