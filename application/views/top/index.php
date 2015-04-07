@@ -42,7 +42,7 @@
         </div>
     </div>
 </section>
-<section class="bgSection" style="padding-bottom: 0px;">
+<section class="bgSection">
     <div class="container">
         <div class="row">
             <div class="span12">
