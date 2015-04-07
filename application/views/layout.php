@@ -7,7 +7,7 @@
         <meta content="首页" name="description" />
         <meta content="en" name="language" />
         <meta charset="utf-8" />
-        <meta content="Pikock.com" name="generator" />
+        <meta content="scnuoyi.com" name="generator" />
         <meta content="width=device-width" name="viewport" />
         <meta content="yes" name="apple-mobile-web-app-capable" />
         <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style" />
@@ -24,10 +24,10 @@
         <meta content="PR8XSqPaO1qxYfaDTsUev0l0SZqiKAz6rFjUSb+gvSE=" name="csrf-token" />
         <style>
             body {
-                font-family: Arial,"宋体";
+                font-family: Arial, 宋体;
             }
             p, li, a, div{
-                color: #868f98;
+                /*color: #868f98;*/
             }
             a.link_with_no_color{
                 color: #868f98;

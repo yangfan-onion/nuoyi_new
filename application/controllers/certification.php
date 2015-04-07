@@ -4,7 +4,8 @@ class Certification extends CI_Controller {
 
     public function index()
     {
-        $data['title'] = '诺亿生物-正品认证';
+        // $data['title'] = '诺亿生物-正品认证';
+        $data['title'] = '诺亿授权查询－诺亿生物科技有限公司唯一官方网站|国产领先品牌化妆品企业,御熙妍|四川诺亿生物科技有限公司';
         $this->layout->view('certification/index', $data);
     }
 

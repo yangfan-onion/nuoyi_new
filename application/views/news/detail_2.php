@@ -49,7 +49,7 @@
                             <div class="widgetContainer">
                                 <div class="imageContainer">
                                     <div class="noLinkImage my-pic">
-                                        <img alt="" src="<?php echo base_url();?>static/image/news/2/3.jpeg">
+                                        <img alt="" src="<?php echo base_url();?>static/image/news/2/3.jpg">
                                     </div>
                                 </div>
                             </div>
@@ -62,7 +62,7 @@
                             <div class="widgetContainer">
                                 <div class="imageContainer">
                                     <div class="noLinkImage my-pic">
-                                        <img alt="" src="<?php echo base_url();?>static/image/news/2/4.jpeg">
+                                        <img alt="" src="<?php echo base_url();?>static/image/news/2/4.jpg">
                                     </div>
                                 </div>
                             </div>

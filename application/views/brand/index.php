@@ -22,7 +22,7 @@
                 </div>
                 <div>
                     <div class="row">
-                        <div class="span6">
+                        <div class="span12">
                             <div class="widgetContainer">
                                 <div class="textContainer">
                                     <p>四川诺亿生物科技有限公司，承诺科技，延展美丽。作为首家推广绿色护肤全新营销理念的公司，秉承“清水出芙蓉，天然去雕饰”的大美原则，成为爱美女性的知音，不断为爱美女性带来前沿的保养美容体验。</p>
@@ -31,13 +31,13 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="span6">
+                       <!--  <div class="span6">
                             <div class="widgetContainer">
                                 <div class="imageContainer">
                                     <div class="noLinkImage"><img alt="brand.jpg" src="<?php echo base_url();?>static/image/brand/brand.png"></div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>

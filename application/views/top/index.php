@@ -42,7 +42,7 @@
         </div>
     </div>
 </section>
-<section class="bgSection">
+<section class="bgSection" style="padding-bottom: 0px;">
     <div class="container">
         <div class="row">
             <div class="span12">
@@ -54,14 +54,14 @@
                             </div>
                             <div class="widgetContainer">
                                 <div class="imageContainer">
-                                    <a class="linkImage img-squareLinkStyle" href="#"><img alt="ip66" class="img-square" src="<?php echo base_url();?>static/image/news/2/cover.jpg"></a>
+                                    <a class="linkImage img-squareLinkStyle" target="_blank" href="http://hn.people.com.cn/n/2015/0105/c356343-23448972.html"><img alt="ip66" class="img-square" src="<?php echo base_url();?>static/image/news/2/cover.jpg"></a>
                                 </div>
                             </div>
                             <div class="widgetContainer">
                                 <div class="textContainer">
                                     <p><strong></strong></p>
-                                    <h4 class="wysiwyg-text-align-center"><a class="link_with_no_color" href="<?php echo base_url();?>news/detail/1">媒体报道</a></h4>
-                                    <p class="wysiwyg-text-align-center"><a class="link_with_no_color font12  " href="<?php echo base_url();?>news/detail/1">敬请期待..</a></p>
+                                    <h4 class="wysiwyg-text-align-center">媒体报道</h4>
+                                    <p class="wysiwyg-text-align-left"><a class="link_with_no_color font12" target="_blank" href="http://hn.people.com.cn/n/2015/0105/c356343-23448972.html">人民网报道『温暖2015,诺亿相伴 来源:中工网 手机看新闻』</a></p>
                                     <div class="wysiwyg-text-align-left"><br></div>
                                 </div>
                             </div>
@@ -107,7 +107,7 @@
         </div>
     </div>
 </section>
-<section class="bgSection">
+<section class="bgSection" style="padding-top: 0px;">
     <div class="container">
         <div class="row">
             <div class="span12">
@@ -139,14 +139,12 @@
                                     <h3>御熙妍</h3>
                                     <p class="wysiwyg-text-align-left">产品精髓</p>
                                     <ul>
-                                        <ul>
                                         <li>修复美白第一膜，众望所归的年度面膜</li>
                                         <li>创新创造竞争力，三项创新自有技术</li>
                                         <li>开启海洋美颜先驱，三种有效核心成分</li>
                                         <li>5D光感蚕丝膜布，尽享奢华巅峰</li>
                                         <li>密集突破美肤瓶颈，五大功效见证奇迹</li>
                                         <li>一膜百搭，加倍后续保养见证奇迹</li>
-                                    </ul>
                                     </ul>
                                 </div>
                             </div>
@@ -162,3 +160,86 @@
         </div>
     </div>
 </section>
+
+<section class="bgSection">
+    <div class="container">
+        <div class="row">
+            <div class="span12">
+                <div class="widgetContainer">
+                    <div class="textContainer">
+                        <p><strong></strong></p>
+                        <h3>友情链接</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="span2">
+                <div class="widgetContainer">
+                    <div class="textContainer">
+                        <a class="link_with_no_color" href="http://scnuoyi.com" target="_blank">四川诺亿官网</a>
+                    </div>
+                </div>
+            </div>
+            <div class="span2">
+                <div class="widgetContainer">
+                    <div class="textContainer">
+                        <a class="link_with_no_color" href="http://www.yuxiyan.com" target="_blank">御熙妍官网</a>
+                    </div>
+                </div>
+            </div>
+            <div class="span2">
+                <div class="widgetContainer">
+                    <div class="textContainer">
+                        <a class="link_with_no_color" href="http://125.35.6.80:8080/ftba/itownet/hzp_ba/fw/pz.jsp?processid=2015022711284816izp&nid=2015022711284816izp" target="_blank">悦色润养面膜备案</a>
+                    </div>
+                </div>
+            </div>
+            <div class="span2">
+                <div class="widgetContainer">
+                    <div class="textContainer">
+                        <a class="link_with_no_color" href="http://125.35.6.80:8080/ftba/itownet/hzp_ba/fw/pz.jsp?processid=201502271008480tjf4&nid=201502271008480tjf4" target="_blank">悦享青春面膜备案</a>
+                    </div>
+                </div>
+            </div>
+            <div class="span2">
+                <div class="widgetContainer">
+                    <div class="textContainer">
+                        <a class="link_with_no_color" href="http://125.35.6.80:8080/ftba/itownet/hzp_ba/fw/pz.jsp?processid=20150227110610ybocf&nid=20150227110610ybocf" target="_blank">悦活水润面膜备案</a>
+                    </div>
+                </div>
+            </div>
+            <div class="span2">
+                <div class="widgetContainer">
+                    <div class="textContainer">
+                        <a class="link_with_no_color" href="http://www.fangwei315.com/default.aspx" target="_blank">正品防伪中心</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="span2">
+                <div class="widgetContainer">
+                    <div class="textContainer">
+                        <a class="link_with_no_color" href="http://www.scnuoyi.com/certification" target="_blank">授权查询</a>
+                    </div>
+                </div>
+            </div>
+            <div class="span2">
+                <div class="widgetContainer">
+                    <div class="textContainer">
+                        <a class="link_with_no_color" href="http://www.scnuoyi.com/news" target="_blank">公司新闻</a>
+                    </div>
+                </div>
+            </div>
+            <div class="span2">
+                <div class="widgetContainer">
+                    <div class="textContainer">
+                        <a class="link_with_no_color" href="http://www.scnuoyi.com/news/detail/1" target="_blank">公益事业</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
