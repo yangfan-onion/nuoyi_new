@@ -27,7 +27,10 @@
                 font-family: Arial, 宋体;
             }
             p, li, a, div{
-                /*color: #868f98;*/
+                color: #868f98;
+            }
+            p {
+                text-indent: 2em;
             }
             a.link_with_no_color{
                 color: #868f98;
