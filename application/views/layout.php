@@ -105,6 +105,9 @@
             .red-text {
                 color: red;
             }
+            .no-text-indent {
+                text-indent: 0;
+            }
         </style>
     </head>
     <body>
@@ -167,7 +170,7 @@
                                     </div>
                                     <div class="widgetContainer">
                                         <div class="textContainer">
-                                            <p>关注微信公众号有机会赢取御熙妍面膜</p>
+                                            <p class="no-text-indent">关注微信公众号有机会赢取御熙妍面膜</p>
                                         </div>
                                     </div>
                                     <div class="widgetContainer">
@@ -186,8 +189,8 @@
                                     </div>
                                     <div class="widgetContainer">
                                         <div class="textContainer">
-                                            <p>Email: scnuoyi@sina.com</p>
-                                            <p>联系电话: 4008401112</p>
+                                            <p class="no-text-indent">Email: scnuoyi@sina.com</p>
+                                            <p class="no-text-indent">联系电话: 4008401112</p>
                                         </div>
                                     </div>
                                     <div class="widgetContainer">
@@ -205,6 +208,15 @@
                                     <div class="widgetContainer">
                                         <div class="gmapContainer">
                                             <div class="gmapWidget r169ifr4" id="allmap"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="span12">
+                                    <div class="widgetContainer">
+                                        <div class="textContainer pull-right">
+                                            <div>Copyright ©四川诺亿生物科技有限公司</div>
                                         </div>
                                     </div>
                                 </div>

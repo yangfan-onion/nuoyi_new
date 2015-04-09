@@ -221,6 +221,13 @@
             <div class="span2">
                 <div class="widgetContainer">
                     <div class="textContainer">
+                        <a class="link_with_no_color" href="http://www.anccnet.com/" target="_blank">中国商品信息服务平台</a>
+                    </div>
+                </div>
+            </div>
+            <div class="span2">
+                <div class="widgetContainer">
+                    <div class="textContainer">
                         <a class="link_with_no_color" href="http://www.scnuoyi.com/certification" target="_blank">授权查询</a>
                     </div>
                 </div>

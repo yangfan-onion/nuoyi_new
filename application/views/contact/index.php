@@ -14,7 +14,7 @@
 <section class="bgSection">
     <div class="container">
         <div class="row">
-            <div class="span6">
+            <div class="span8">
                 <div class="formContainer">
                     <form accept-charset="UTF-8" action="<?php echo base_url();?>contact/send_email" class="simple_form new_contact" id="new_contact" method="post" novalidate="novalidate">
                         <div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="PR8XSqPaO1qxYfaDTsUev0l0SZqiKAz6rFjUSb+gvSE=" /></div>
@@ -45,7 +45,7 @@
                     </form>
                 </div>
             </div>
-            <div class="span6">
+            <!-- <div class="span6">
                 <div class="widgetContainer">
                     <div class="imageContainer">
                         <div class="noLinkImage"><img alt="dublinstreet" src="<?php echo base_url();?>static/image/contact/contact_us.png"></div>
@@ -56,7 +56,7 @@
                         <p>By 四川诺亿生物</p>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </section>
