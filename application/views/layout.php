@@ -45,10 +45,11 @@
             }
             .navbar .nav>li>a:hover:before  {
                 /*border-top-color: #28282a;*/
-                border-top-color: #0588CC;
+                border-top-color: #565453;
             }
             .navbar .nav>li>a:focus, .navbar .nav>li>a:hover {
-                border-top: 2px solid #0588CC;
+                /*border-top: 2px solid #28282a;*/
+                border-top: 2px solid #565453;
             }
             .nav-collapse .nav>li>a:hover, .nav-collapse .nav>li>a:focus, .nav-collapse .dropdown-menu a:hover, .nav-collapse .dropdown-menu a:focus {
                 background-color: #78949e;
