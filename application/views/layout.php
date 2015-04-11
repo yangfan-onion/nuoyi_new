@@ -44,10 +44,11 @@
                 background-image: linear-gradient(to bottom, #78949e, #78949e);
             }
             .navbar .nav>li>a:hover:before  {
-                border-top-color: #28282a;
+                /*border-top-color: #28282a;*/
+                border-top-color: #0588CC;
             }
             .navbar .nav>li>a:focus, .navbar .nav>li>a:hover {
-                border-top: 2px solid #28282a;
+                border-top: 2px solid #0588CC;
             }
             .nav-collapse .nav>li>a:hover, .nav-collapse .nav>li>a:focus, .nav-collapse .dropdown-menu a:hover, .nav-collapse .dropdown-menu a:focus {
                 background-color: #78949e;
@@ -89,6 +90,14 @@
             }
             .linkImage:after {
                 background-color: #78949e;
+            }
+            .btn-group.open .btn-primary.dropdown-toggle {
+                background-color: #78A7B8;
+            }
+            .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus, .dropdown-submenu:hover>a, .dropdown-submenu:focus>a {
+                /*text-decoration: none;
+                color: #ffffff;*/
+                background-color: #78A7B8;
             }
             .textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus {
                 border-bottom: 2px solid #78949e;
