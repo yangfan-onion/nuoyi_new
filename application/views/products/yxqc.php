@@ -30,11 +30,11 @@
                         </ul>
                     </div>
                 </div>
-                <!-- <div class="widgetContainer">
+                <div class="widgetContainer">
                     <div class="linkContainer">
-                        <div class="link text-left"><a class="btn btn-primary btn-large  pull-left" href="#" title="稍后上线天猫商城"></a></div>
+                        <div class="link text-left"><a target="_blank" href="<?php echo base_url();?>report/yxqc" title="检测报告">检测报告</a></div>
                     </div>
-                </div> -->
+                </div>
             </div>
             <div class="span8">
                 <div class="widgetContainer">

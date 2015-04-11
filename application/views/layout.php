@@ -137,9 +137,9 @@
                                                             <li class="dropdown">
                                                                 <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span></span>热卖产品<b class="caret"></b></a>
                                                                 <ul class="dropdown-menu">
-                                                                    <li><a href="<?php echo base_url();?>products/xmn" title="悦享青春女士面膜"><span></span>悦享青春女士面膜</a></li>
-                                                                    <li><a href="<?php echo base_url();?>products/ry" title="悦色润养女士面膜"><span></span>悦色润养女士面膜</a></li>
-                                                                    <li><a href="<?php echo base_url();?>products/jhs" title="悦活水润男士面膜"><span></span>悦活水润男士面膜</a></li>
+                                                                    <li><a href="<?php echo base_url();?>products/yxqc" title="悦享青春女士面膜"><span></span>悦享青春女士面膜</a></li>
+                                                                    <li><a href="<?php echo base_url();?>products/ysry" title="悦色润养女士面膜"><span></span>悦色润养女士面膜</a></li>
+                                                                    <li><a href="<?php echo base_url();?>products/yhsr" title="悦活水润男士面膜"><span></span>悦活水润男士面膜</a></li>
                                                                 </ul>
                                                             </li>
                                                             <li><a href="<?php echo base_url();?>brand" title="品牌"><span></span>企业介绍</a></li>
